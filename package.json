@@ -6,12 +6,12 @@
     "scripts": {
         "build": "vue-tsc -b && vite build",
         "check": "npm run check:format && npm run check:lint",
-        "check:format": "prettier .",
-        "check:lint": "eslint . --ext .ts,.vue",
+        "check:format": "prettier src",
+        "check:lint": "eslint src --ext .ts,.vue",
         "dev": "vite",
         "fix": "npm run fix:lint && npm run fix:format",
-        "fix:lint": "eslint . --ext .ts,.vue --fix",
-        "fix:format": "prettier . --write",
+        "fix:lint": "eslint src --ext .ts,.vue --fix",
+        "fix:format": "prettier src --write",
         "preview": "vite preview"
     },
     "dependencies": {
@@ -26,6 +26,7 @@
     },
     "devDependencies": {
         "@eslint/js": "^9.33.0",
+        "@types/node": "^24.2.1",
         "@vitejs/plugin-vue": "^6.0.1",
         "@vue/tsconfig": "^0.7.0",
         "eslint": "^9.33.0",
