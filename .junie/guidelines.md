@@ -11,6 +11,7 @@ NoctherionGateOfSouls is a web-based game application built with Vue.js 3, TypeS
 - **Styling**: Tailwind CSS 4
 - **Build Tool**: Vite
 - **Package Manager**: npm
+- **Icons**: Font Awesome (Classic Solid, Classic Light, Duotone Solid, Duotone Light)
 
 ### Project Structure
 ```
@@ -33,11 +34,9 @@ src/
 - **Vue Style**: Use Composition API with `<script setup>` syntax
 
 ### Development Workflow
-1. **Development Server**: Run `npm run dev` to start the development server
-2. **Code Checking**: Run `npm run check` to verify linting and formatting
-3. **Code Fixing**: Run `npm run fix` to auto-fix linting and formatting issues
-4. **Building**: Run `npm run build` to create production build
-5. **Preview**: Run `npm run preview` to preview production build locally
+1. **Code Checking**: Run `npm run check` to verify linting and formatting
+2. **Code Fixing**: Run `npm run fix` to auto-fix linting and formatting issues
+3. **Build**: Run `npm run build` to check the build
 
 ### Testing Strategy
 - Currently no test framework is configured
@@ -47,13 +46,12 @@ src/
 ### Code Style Instructions
 - Use TypeScript for all new files
 - Follow Vue 3 Composition API patterns
-- Use Tailwind CSS for styling
+- ONLY Use Tailwind CSS for styling
 - Maintain consistent naming conventions (camelCase for variables/functions, PascalCase for components)
 - Keep components focused and single-responsibility
 - Use Pinia stores for shared state management
 
 ### Build and Deployment
-- Always run `npm run build` before deployment
 - Ensure `npm run check` passes before committing changes
 - The project builds to a `dist/` directory for deployment
 
