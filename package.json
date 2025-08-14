@@ -1,0 +1,42 @@
+{
+    "name": "noctheriongateofsouls",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "build": "vue-tsc -b && vite build",
+        "check": "npm run check:format && npm run check:lint",
+        "check:format": "prettier .",
+        "check:lint": "eslint . --ext .ts,.vue",
+        "dev": "vite",
+        "fix": "npm run fix:lint && npm run fix:format",
+        "fix:lint": "eslint . --ext .ts,.vue --fix",
+        "fix:format": "prettier . --write",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@tailwindcss/vite": "^4.1.11",
+        "@vueuse/core": "^13.6.0",
+        "@vueuse/math": "^13.6.0",
+        "@vueuse/router": "^13.6.0",
+        "pinia": "^3.0.3",
+        "tailwindcss": "^4.1.11",
+        "vue": "^3.5.18",
+        "vue-router": "^4.5.1"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.33.0",
+        "@vitejs/plugin-vue": "^6.0.1",
+        "@vue/tsconfig": "^0.7.0",
+        "eslint": "^9.33.0",
+        "eslint-config-prettier": "^10.1.8",
+        "eslint-plugin-vue": "^10.4.0",
+        "globals": "^16.3.0",
+        "jiti": "^2.5.1",
+        "prettier": "^3.6.2",
+        "typescript": "~5.8.3",
+        "typescript-eslint": "^8.39.1",
+        "vite": "^7.1.2",
+        "vue-tsc": "^3.0.5"
+    }
+}
