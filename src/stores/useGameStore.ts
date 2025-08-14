@@ -1,6 +1,6 @@
-import {defineStore} from "pinia";
+import { defineStore } from "pinia";
 
-const useGameStore = defineStore('game', () => {
+const useGameStore = defineStore("game", () => {
     //
 });
 
