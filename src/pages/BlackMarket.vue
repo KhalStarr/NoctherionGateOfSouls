@@ -1,5 +1,5 @@
 <script setup lang="ts"></script>
 
 <template>
-    <div>BLACK MARKET</div>
+    <main class="flex flex-col flex-1">BLACK MARKET</main>
 </template>

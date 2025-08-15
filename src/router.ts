@@ -13,11 +13,6 @@ const router = createRouter({
                     path: "",
                 },
                 {
-                    component: () => import("@/pages/Ascension.vue"),
-                    name: "ascension",
-                    path: "ascension",
-                },
-                {
                     component: () => import("@/pages/BlackMarket.vue"),
                     name: "black-market",
                     path: "black-market",
@@ -26,6 +21,11 @@ const router = createRouter({
                     component: () => import("@/pages/Forge.vue"),
                     name: "forge",
                     path: "forge",
+                },
+                {
+                    component: () => import("@/pages/Hirelings.vue"),
+                    name: "hirelings",
+                    path: "hirelings",
                 },
                 {
                     component: () => import("@/pages/Rituals.vue"),

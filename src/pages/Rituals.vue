@@ -1,5 +1,5 @@
 <script setup lang="ts"></script>
 
 <template>
-    <div>RITUALS</div>
+    <main class="flex flex-col flex-1">RITUALS</main>
 </template>

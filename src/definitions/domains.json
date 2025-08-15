@@ -7,7 +7,27 @@
             {
                 "identifier": "cerberus_stray",
                 "name": "Stray",
-                "requiredReputation": 0
+                "targetReputation": 100
+            },
+            {
+                "identifier": "cerberus_fangmarked",
+                "name": "Fangmarked",
+                "targetReputation": 200
+            },
+            {
+                "identifier": "cerberus_gateforged",
+                "name": "Gateforged",
+                "targetReputation": 300
+            },
+            {
+                "identifier": "cerberus_voidfang",
+                "name": "Voidfang",
+                "targetReputation": 400
+            },
+            {
+                "identifier": "cerberus_mawbound",
+                "name": "Mawbound",
+                "targetReputation": 500
             }
         ]
     }

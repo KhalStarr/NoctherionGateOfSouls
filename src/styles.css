@@ -1,5 +1,31 @@
 @import "tailwindcss";
 
+@theme inline {
+    --color-tune-50: var(--tuned-50);
+    --color-tune-100: var(--tuned-100);
+    --color-tune-200: var(--tuned-200);
+    --color-tune-300: var(--tuned-300);
+    --color-tune-400: var(--tuned-400);
+    --color-tune-500: var(--tuned-500);
+    --color-tune-600: var(--tuned-600);
+    --color-tune-700: var(--tuned-700);
+    --color-tune-800: var(--tuned-800);
+    --color-tune-900: var(--tuned-900);
+    --color-tune-950: var(--tuned-950);
+
+    --color-next-50: var(--next-50);
+    --color-next-100: var(--next-100);
+    --color-next-200: var(--next-200);
+    --color-next-300: var(--next-300);
+    --color-next-400: var(--next-400);
+    --color-next-500: var(--next-500);
+    --color-next-600: var(--next-600);
+    --color-next-700: var(--next-700);
+    --color-next-800: var(--next-800);
+    --color-next-900: var(--next-900);
+    --color-next-950: var(--next-950);
+}
+
 @theme {
     --font-display:
         "Cinzel", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
@@ -12,6 +38,234 @@
 
     --animate-spin-slow: spin 10s linear infinite;
     --animate-spin-slow-reverse: spin 10s linear infinite reverse;
+
+    --color-unbound-50: var(--color-red-50);
+    --color-unbound-100: var(--color-red-100);
+    --color-unbound-200: var(--color-red-200);
+    --color-unbound-300: var(--color-red-300);
+    --color-unbound-400: var(--color-red-400);
+    --color-unbound-500: var(--color-red-500);
+    --color-unbound-600: var(--color-red-600);
+    --color-unbound-700: var(--color-red-700);
+    --color-unbound-800: var(--color-red-800);
+    --color-unbound-900: var(--color-red-900);
+    --color-unbound-950: var(--color-red-950);
+
+    --color-bound-50: var(--color-purple-50);
+    --color-bound-100: var(--color-purple-100);
+    --color-bound-200: var(--color-purple-200);
+    --color-bound-300: var(--color-purple-300);
+    --color-bound-400: var(--color-purple-400);
+    --color-bound-500: var(--color-purple-500);
+    --color-bound-600: var(--color-purple-600);
+    --color-bound-700: var(--color-purple-700);
+    --color-bound-800: var(--color-purple-800);
+    --color-bound-900: var(--color-purple-900);
+    --color-bound-950: var(--color-purple-950);
+
+    --color-spiteful-50: var(--color-lime-50);
+    --color-spiteful-100: var(--color-lime-100);
+    --color-spiteful-200: var(--color-lime-200);
+    --color-spiteful-300: var(--color-lime-300);
+    --color-spiteful-400: var(--color-lime-400);
+    --color-spiteful-500: var(--color-lime-500);
+    --color-spiteful-600: var(--color-lime-600);
+    --color-spiteful-700: var(--color-lime-700);
+    --color-spiteful-800: var(--color-lime-800);
+    --color-spiteful-900: var(--color-lime-900);
+    --color-spiteful-950: var(--color-lime-950);
+
+    --color-hollow-50: var(--color-amber-50);
+    --color-hollow-100: var(--color-amber-100);
+    --color-hollow-200: var(--color-amber-200);
+    --color-hollow-300: var(--color-amber-300);
+    --color-hollow-400: var(--color-amber-400);
+    --color-hollow-500: var(--color-amber-500);
+    --color-hollow-600: var(--color-amber-600);
+    --color-hollow-700: var(--color-amber-700);
+    --color-hollow-800: var(--color-amber-800);
+    --color-hollow-900: var(--color-amber-900);
+    --color-hollow-950: var(--color-amber-950);
+
+    --color-forged-50: var(--color-teal-50);
+    --color-forged-100: var(--color-teal-100);
+    --color-forged-200: var(--color-teal-200);
+    --color-forged-300: var(--color-teal-300);
+    --color-forged-400: var(--color-teal-400);
+    --color-forged-500: var(--color-teal-500);
+    --color-forged-600: var(--color-teal-600);
+    --color-forged-700: var(--color-teal-700);
+    --color-forged-800: var(--color-teal-800);
+    --color-forged-900: var(--color-teal-900);
+    --color-forged-950: var(--color-teal-950);
+
+    --color-husked-50: var(--color-violet-50);
+    --color-husked-100: var(--color-violet-100);
+    --color-husked-200: var(--color-violet-200);
+    --color-husked-300: var(--color-violet-300);
+    --color-husked-400: var(--color-violet-400);
+    --color-husked-500: var(--color-violet-500);
+    --color-husked-600: var(--color-violet-600);
+    --color-husked-700: var(--color-violet-700);
+    --color-husked-800: var(--color-violet-800);
+    --color-husked-900: var(--color-violet-900);
+    --color-husked-950: var(--color-violet-950);
 }
 
 @custom-variant hover (&:hover);
+
+[data-tune="unbound"] {
+    --tuned-50: var(--color-unbound-50);
+    --tuned-100: var(--color-unbound-100);
+    --tuned-200: var(--color-unbound-200);
+    --tuned-300: var(--color-unbound-300);
+    --tuned-400: var(--color-unbound-400);
+    --tuned-500: var(--color-unbound-500);
+    --tuned-600: var(--color-unbound-600);
+    --tuned-700: var(--color-unbound-700);
+    --tuned-800: var(--color-unbound-800);
+    --tuned-900: var(--color-unbound-900);
+    --tuned-950: var(--color-unbound-950);
+
+    --next-50: var(--color-bound-50);
+    --next-100: var(--color-bound-100);
+    --next-200: var(--color-bound-200);
+    --next-300: var(--color-bound-300);
+    --next-400: var(--color-bound-400);
+    --next-500: var(--color-bound-500);
+    --next-600: var(--color-bound-600);
+    --next-700: var(--color-bound-700);
+    --next-800: var(--color-bound-800);
+    --next-900: var(--color-bound-900);
+    --next-950: var(--color-bound-950);
+}
+
+[data-tune="bound"] {
+    --tuned-50: var(--color-bound-50);
+    --tuned-100: var(--color-bound-100);
+    --tuned-200: var(--color-bound-200);
+    --tuned-300: var(--color-bound-300);
+    --tuned-400: var(--color-bound-400);
+    --tuned-500: var(--color-bound-500);
+    --tuned-600: var(--color-bound-600);
+    --tuned-700: var(--color-bound-700);
+    --tuned-800: var(--color-bound-800);
+    --tuned-900: var(--color-bound-900);
+    --tuned-950: var(--color-bound-950);
+
+    --next-50: var(--color-spiteful-50);
+    --next-100: var(--color-spiteful-100);
+    --next-200: var(--color-spiteful-200);
+    --next-300: var(--color-spiteful-300);
+    --next-400: var(--color-spiteful-400);
+    --next-500: var(--color-spiteful-500);
+    --next-600: var(--color-spiteful-600);
+    --next-700: var(--color-spiteful-700);
+    --next-800: var(--color-spiteful-800);
+    --next-900: var(--color-spiteful-900);
+    --next-950: var(--color-spiteful-950);
+}
+
+[data-tune="spiteful"] {
+    --tuned-50: var(--color-spiteful-50);
+    --tuned-100: var(--color-spiteful-100);
+    --tuned-200: var(--color-spiteful-200);
+    --tuned-300: var(--color-spiteful-300);
+    --tuned-400: var(--color-spiteful-400);
+    --tuned-500: var(--color-spiteful-500);
+    --tuned-600: var(--color-spiteful-600);
+    --tuned-700: var(--color-spiteful-700);
+    --tuned-800: var(--color-spiteful-800);
+    --tuned-900: var(--color-spiteful-900);
+    --tuned-950: var(--color-spiteful-950);
+
+    --next-50: var(--color-hollow-50);
+    --next-100: var(--color-hollow-100);
+    --next-200: var(--color-hollow-200);
+    --next-300: var(--color-hollow-300);
+    --next-400: var(--color-hollow-400);
+    --next-500: var(--color-hollow-500);
+    --next-600: var(--color-hollow-600);
+    --next-700: var(--color-hollow-700);
+    --next-800: var(--color-hollow-800);
+    --next-900: var(--color-hollow-900);
+    --next-950: var(--color-hollow-950);
+}
+
+[data-tune="hollow"] {
+    --tuned-50: var(--color-hollow-50);
+    --tuned-100: var(--color-hollow-100);
+    --tuned-200: var(--color-hollow-200);
+    --tuned-300: var(--color-hollow-300);
+    --tuned-400: var(--color-hollow-400);
+    --tuned-500: var(--color-hollow-500);
+    --tuned-600: var(--color-hollow-600);
+    --tuned-700: var(--color-hollow-700);
+    --tuned-800: var(--color-hollow-800);
+    --tuned-900: var(--color-hollow-900);
+    --tuned-950: var(--color-hollow-950);
+
+    --next-50: var(--color-forged-50);
+    --next-100: var(--color-forged-100);
+    --next-200: var(--color-forged-200);
+    --next-300: var(--color-forged-300);
+    --next-400: var(--color-forged-400);
+    --next-500: var(--color-forged-500);
+    --next-600: var(--color-forged-600);
+    --next-700: var(--color-forged-700);
+    --next-800: var(--color-forged-800);
+    --next-900: var(--color-forged-900);
+    --next-950: var(--color-forged-950);
+}
+
+[data-tune="forged"] {
+    --tuned-50: var(--color-forged-50);
+    --tuned-100: var(--color-forged-100);
+    --tuned-200: var(--color-forged-200);
+    --tuned-300: var(--color-forged-300);
+    --tuned-400: var(--color-forged-400);
+    --tuned-500: var(--color-forged-500);
+    --tuned-600: var(--color-forged-600);
+    --tuned-700: var(--color-forged-700);
+    --tuned-800: var(--color-forged-800);
+    --tuned-900: var(--color-forged-900);
+    --tuned-950: var(--color-forged-950);
+
+    --next-50: var(--color-husked-50);
+    --next-100: var(--color-husked-100);
+    --next-200: var(--color-husked-200);
+    --next-300: var(--color-husked-300);
+    --next-400: var(--color-husked-400);
+    --next-500: var(--color-husked-500);
+    --next-600: var(--color-husked-600);
+    --next-700: var(--color-husked-700);
+    --next-800: var(--color-husked-800);
+    --next-900: var(--color-husked-900);
+    --next-950: var(--color-husked-950);
+}
+
+[data-tune="husked"] {
+    --tuned-50: var(--color-husked-50);
+    --tuned-100: var(--color-husked-100);
+    --tuned-200: var(--color-husked-200);
+    --tuned-300: var(--color-husked-300);
+    --tuned-400: var(--color-husked-400);
+    --tuned-500: var(--color-husked-500);
+    --tuned-600: var(--color-husked-600);
+    --tuned-700: var(--color-husked-700);
+    --tuned-800: var(--color-husked-800);
+    --tuned-900: var(--color-husked-900);
+    --tuned-950: var(--color-husked-950);
+
+    --next-50: var(--color-unbound-50);
+    --next-100: var(--color-unbound-100);
+    --next-200: var(--color-unbound-200);
+    --next-300: var(--color-unbound-300);
+    --next-400: var(--color-unbound-400);
+    --next-500: var(--color-unbound-500);
+    --next-600: var(--color-unbound-600);
+    --next-700: var(--color-unbound-700);
+    --next-800: var(--color-unbound-800);
+    --next-900: var(--color-unbound-900);
+    --next-950: var(--color-unbound-950);
+}

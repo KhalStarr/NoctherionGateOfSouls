@@ -9,6 +9,7 @@
         "check:format": "prettier src",
         "check:lint": "eslint src --ext .ts,.vue",
         "dev": "vite",
+        "dev:host": "vite --host",
         "fix": "npm run fix:lint && npm run fix:format",
         "fix:lint": "eslint src --ext .ts,.vue --fix",
         "fix:format": "prettier src --write",

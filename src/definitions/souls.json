@@ -2,13 +2,13 @@
     {
         "identifier": "unbound",
         "name": "Unbound",
-        "icon": "",
+        "icon": "fa-ghost",
         "cost": null
     },
     {
         "identifier": "bound",
         "name": "Bound",
-        "icon": "",
+        "icon": "fa-hands-bound",
         "cost": {
             "amount": 10,
             "soulType": "unbound",
@@ -18,7 +18,7 @@
     {
         "identifier": "spiteful",
         "name": "Spiteful",
-        "icon": "",
+        "icon": "fa-face-angry-horns",
         "cost": {
             "amount": 100,
             "soulType": "bound",
@@ -28,7 +28,7 @@
     {
         "identifier": "hollow",
         "name": "Hollow",
-        "icon": "",
+        "icon": "fa-coffin-cross",
         "cost": {
             "amount": 1000,
             "soulType": "spiteful",
@@ -38,7 +38,7 @@
     {
         "identifier": "forged",
         "name": "Forged",
-        "icon": "",
+        "icon": "fa-scythe",
         "cost": {
             "amount": 10000,
             "soulType": "hollow",
@@ -48,7 +48,7 @@
     {
         "identifier": "husked",
         "name": "Husked",
-        "icon": "",
+        "icon": "fa-skull",
         "cost": {
             "amount": 100000,
             "soulType": "forged",
