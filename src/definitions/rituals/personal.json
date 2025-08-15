@@ -1,0 +1,21 @@
+{
+    "cerberus": [
+        {
+            "identifier": "stack_crates",
+            "name": "Stack Soul Crates",
+            "description": "Stack some soul crates together.",
+            "costs": [
+                {
+                    "amount": 2,
+                    "soulType": "unbound",
+                    "type": "soul"
+                }
+            ],
+            "requiredRank": "cerberus_stray",
+            "reward": {
+                "amount": 1,
+                "type": "souls_per_click"
+            }
+        }
+    ]
+}

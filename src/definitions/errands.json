@@ -1,0 +1,21 @@
+{
+    "cerberus": [
+        {
+            "identifier": "errand_a",
+            "name": "Errand A",
+            "description": "Errand A description",
+            "costs": [
+                {
+                    "amount": 2,
+                    "soulType": "unbound",
+                    "type": "soul"
+                }
+            ],
+            "requiredRank": "cerberus_stray",
+            "reward": {
+                "amount": 1,
+                "type": "reputation"
+            }
+        }
+    ]
+}

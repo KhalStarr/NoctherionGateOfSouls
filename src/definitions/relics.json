@@ -1,0 +1,11 @@
+[
+    {
+        "identifier": "relic_a",
+        "name": "Relic A",
+        "description": "Relic A description",
+        "effect": {
+            "value": 1.5,
+            "type": "multiplier"
+        }
+    }
+]

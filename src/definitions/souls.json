@@ -1,0 +1,58 @@
+[
+    {
+        "identifier": "unbound",
+        "name": "Unbound",
+        "icon": "",
+        "cost": null
+    },
+    {
+        "identifier": "bound",
+        "name": "Bound",
+        "icon": "",
+        "cost": {
+            "amount": 10,
+            "soulType": "unbound",
+            "type": "soul"
+        }
+    },
+    {
+        "identifier": "spiteful",
+        "name": "Spiteful",
+        "icon": "",
+        "cost": {
+            "amount": 100,
+            "soulType": "bound",
+            "type": "soul"
+        }
+    },
+    {
+        "identifier": "hollow",
+        "name": "Hollow",
+        "icon": "",
+        "cost": {
+            "amount": 1000,
+            "soulType": "spiteful",
+            "type": "soul"
+        }
+    },
+    {
+        "identifier": "forged",
+        "name": "Forged",
+        "icon": "",
+        "cost": {
+            "amount": 10000,
+            "soulType": "hollow",
+            "type": "soul"
+        }
+    },
+    {
+        "identifier": "husked",
+        "name": "Husked",
+        "icon": "",
+        "cost": {
+            "amount": 100000,
+            "soulType": "forged",
+            "type": "soul"
+        }
+    }
+]

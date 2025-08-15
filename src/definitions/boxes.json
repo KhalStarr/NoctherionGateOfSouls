@@ -1,0 +1,22 @@
+[
+    {
+        "identifier": "box_a",
+        "name": "Box A",
+        "description": "A box",
+        "cost": {
+            "amount": 1,
+            "keyType": "unbound_key",
+            "type": "key"
+        },
+        "results": [
+            {
+                "name": "Reputation Loss",
+                "description": "You lost some reputation.",
+                "reward": {
+                    "amount": -1,
+                    "type": "reputation"
+                }
+            }
+        ]
+    }
+]

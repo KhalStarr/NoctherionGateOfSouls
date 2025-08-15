@@ -1,0 +1,62 @@
+[
+    {
+        "identifier": "unbound_key",
+        "name": "Unbound",
+        "icon": "",
+        "cost": {
+            "amount": 10,
+            "soulType": "unbound",
+            "type": "soul"
+        }
+    },
+    {
+        "identifier": "bound_key",
+        "name": "Bound",
+        "icon": "",
+        "cost": {
+            "amount": 100,
+            "soulType": "bound",
+            "type": "soul"
+        }
+    },
+    {
+        "identifier": "spiteful_key",
+        "name": "Spiteful",
+        "icon": "",
+        "cost": {
+            "amount": 1000,
+            "soulType": "spiteful",
+            "type": "soul"
+        }
+    },
+    {
+        "identifier": "hollow_key",
+        "name": "Hollow",
+        "icon": "",
+        "cost": {
+            "amount": 10000,
+            "soulType": "hollow",
+            "type": "soul"
+        }
+    },
+    {
+        "identifier": "forged_key",
+        "name": "Forged",
+        "icon": "",
+        "cost": {
+            "amount": 100000,
+            "soulType": "forged",
+            "type": "soul"
+        }
+    },
+    {
+        "identifier": "husked_key",
+        "name": "Husked",
+        "icon": "",
+        "cost": {
+            "amount": 1000000,
+            "soulType": "husked",
+            "type": "soul"
+        }
+    }
+]

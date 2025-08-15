@@ -1,0 +1,14 @@
+[
+    {
+        "identifier": "cerberus",
+        "name": "Cerberus' Vigil",
+        "gateCall": "Tap the gate. Cerberus is listening.",
+        "ranks": [
+            {
+                "identifier": "cerberus_stray",
+                "name": "Stray",
+                "requiredReputation": 0
+            }
+        ]
+    }
+]
